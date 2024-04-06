@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'letri'; 
+    src: url("../fonts/ExtraOrnamentalNo2.ttf") 
+}
+
+.btn {
+    margin-left: -70px;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    
+}
+
+.h {
+    font-family: letri;
+    font-size: 30px;
+    font-weight: 350;
+    margin-left: -70px;
+    top: 100px;
+    left: 200px;
+    position: absolute;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+}
+
+#start:hover {
+    background-color: rgb(32, 24, 24);
+    color: white
+}
+
+#stop:hover {
+    background-color: rgb(32, 24, 24);
+    color: white
+}
+
+#again:hover {
+    background-color: rgb(32, 24, 24);
+    color: white
+}
+
+#start {
+    font-weight: 400;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -70px;
+    background-color: white;
+    border: 0.1px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    text-transform: uppercase;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 6px;
+
+}
+
+#stop {
+    font-weight: 400;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-left: -70px;
+    background-color: white;
+    border: 0.1px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#again{
+    font-weight: 400;
+letter-spacing: 6px;
+text-transform: uppercase;
+margin-left: -70px;
+background-color: white;
+border: 0.1px solid black;
+color: rgb(0, 0, 0);
+border-radius: 6px;
+width: 150px;
+height: 50px;
+margin-bottom: 20px;
+}
+
+span:empty {
+    display: none;
+}
+
+span {
+    top: 150px;
+    margin-left: 180px;
+    border-bottom: 0.1px solid black;
+    font-size: 30px;
+    position: absolute;
+    font-weight: lighter;
+
+}
+
+.c {
+    background-image: url("../images/bg.png");
+    background-size: 100% 100%;
+    width: 700px;
+    height: 610px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 40px;
+}
+
+p {
+font-size: 25px;
+}
+
+.contenBtn {
+    margin-left: 200px;
+    top: 250px;
+    position: absolute;
+}
+
+.circle {
+    position: absolute;
+}
+
+.circleMeta {
+    width: 118px;
+    height: 50px;
+    position: absolute;
+    box-shadow: 0 0 20px rgb(10, 153, 255);
+}
+
+
+
+
+
